@@ -1,0 +1,49 @@
+body{
+    background-color: #0C5ABF;
+}
+.container{
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 700px;
+}
+
+header > img{
+    max-width: 50%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+main{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.sorteio{
+    max-width: 1000px;
+    min-width: 600px;
+    height: 300px;
+    width: auto;
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid #F2C438 ;
+    border-radius: 20px;
+    background-color: rgb(red, green, blue);
+    
+}
