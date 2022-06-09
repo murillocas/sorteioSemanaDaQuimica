@@ -4,10 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="sorteio.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lato&family=Secular+One&display=swap" rel="stylesheet">
+
     <title>Document</title>
 </head>
 
 <body>
+    <div class="imgback"></div>
     <div class="container">
         <header>
             <img src="imgs/semanaDaQuimica.jpeg" alt="Logo semana da quimica" class="bgImg">
@@ -18,8 +26,9 @@
             <h1>Semana da quimica</h1>
 
             <div class="sorteio">
-                <h2>CLick aki para sortear</h2>
-                <div class="Botao">CLick aki para sortear</div>
+                <h2 id="nome-ganhador">Nome do Aluno</h2>
+                <h2 id="email">Email do Aluno</h2>
+                <div class="Botao" id="sortear"><h3>Sortear</h3></div>
             </div>
         </main>
 
