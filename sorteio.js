@@ -2,8 +2,38 @@ const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
 const sala = urlParams.get('id');
 
-var links = ["semanadaQuimica.json"] 
-var nomelinks = ["Semana da Quimica","Credenciamento vespertino","Gincana","Credenciamento noturno","Conferência de abertura e momento cultural","Palestra de abertura","Oficina 1- Produção de alimentos a partir de plantas medicinais","Oficina 2: Ferramentas para análises de parâmetros físico-químicos de água de rio: Qualitativa e quantitativa","Oficina 3: ISSO MINHA AVÓ JÁ FAZIA! Uma perspectiva técnica da produção sustentável de sabão e sabonete líquido","Oficina 4: 5Rs da Sustentabilidade","Oficina 5: Análises químicas em microescala e suas vantagens para a Química Verde","Oficina 6- Química para um mundo sustentável: uma abordagem investigativa para o ensino de Química Verde","Oficina 7: Produção e utilização de extratos de produtos naturais para controle de fitopatógenos","Oficina 8- Cultura Maker no Ensino de Química: o uso do arduíno e impressão 3D","Cerimônia de encerramento","Palestra de encerramento"]
+var links = ["semanadaQuimica.json"
+,"CredenciamentoVespertino.json"
+,"Gincana.json"
+,"CredenciamentoNoturno.json"
+,"ConferenciaAbertura.json"
+,"PalestraAbertura.json"
+,"Oficina1.json"
+,"Oficina2.json"
+,"Oficina3.json"
+,"Oficina4.json"
+,"Oficina5.json"
+,"Oficina6.json"
+,"Oficina7.json"
+,"Oficina8.json"
+,"CerimoniaEncerramento.json"
+,"PalestraEncerramento.json"] 
+var nomelinks = ["Semana da Quimica",
+"Credenciamento vespertino",
+"Gincana",
+"Credenciamento noturno",
+"Conferência de abertura e momento cultural",
+"Palestra de abertura",
+"Oficina 1- Produção de alimentos a partir de plantas medicinais",
+"Oficina 2: Ferramentas para análises de parâmetros físico-químicos de água de rio: Qualitativa e quantitativa",
+"Oficina 3: ISSO MINHA AVÓ JÁ FAZIA! Uma perspectiva técnica da produção sustentável de sabão e sabonete líquido",
+"Oficina 4: 5Rs da Sustentabilidade"
+,"Oficina 5: Análises químicas em microescala e suas vantagens para a Química Verde"
+,"Oficina 6- Química para um mundo sustentável: uma abordagem investigativa para o ensino de Química Verde"
+,"Oficina 7: Produção e utilização de extratos de produtos naturais para controle de fitopatógenos"
+,"Oficina 8- Cultura Maker no Ensino de Química: o uso do arduíno e impressão 3D"
+,"Cerimônia de encerramento"
+,"Palestra de encerramento"]
 const nomeGanhador = document.getElementById('nome-ganhador');
 const botaoSorteio = document.getElementById('sortear');
 const emailGanhador = document.getElementById('email');
