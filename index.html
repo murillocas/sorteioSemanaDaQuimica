@@ -5,11 +5,12 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
     <script type="text/javascript" src="sorteio.js" defer></script>
+    <script type="text/javascript" src="listardias.js" defer></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Lato&family=Secular+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Secular+One&display=swap" rel="stylesheet">
 
     <title>Document</title>
 </head>
@@ -19,16 +20,53 @@
     <div class="container">
         <header>
             <img src="imgs/semanaDaQuimica.jpeg" alt="Logo semana da quimica" class="bgImg">
-            <img src="imgs/ifgoiano-horizontal-preto.33e39477.svg" alt="Logo IF goiano">
+
         </header>
 
         <main>
-            <h1>Semana da quimica</h1>
+            <div class="dias">
+                <ul>
+                    <li id="sdia13">dia13</li>
+                    <li id="sdia14">dia14</li>
+                    <li id="sdia15">dia15</li>
+                </ul>
+            </div>
+            <div class="paginas">
+                <ul id="dia13" class="hidden">
+                    <li><a href="index.html?id=0">Total de inscrições no evento</a></li>
+                    <li><a href="index.html?id=1">Credenciamento vespertino</a></li>
+                    <li><a href="index.html?id=2">Gincana</a></li>
+                    <li><a href="index.html?id=3">Credenciamento noturno</a></li>
+                    <li><a href="index.html?id=4">Conferência de abertura e momento cultural</a></li>
+                    <li><a href="index.html?id=5">Palestra de abertura</a></li>
+
+
+                </ul>
+                <ul id="dia14" class="hidden">
+                    <li><a href="index.html?id=6">Oficina 1- Produção de alimentos a partir de plantas medicinais</a></li>
+                    <li><a href="index.html?id=7">Oficina 2: Ferramentas para análises de parâmetros físico-químicos de água de rio: Qualitativa e quantitativa</a></li>
+                    <li><a href="index.html?id=8">Oficina 3: ISSO MINHA AVÓ JÁ FAZIA! Uma perspectiva técnica da produção sustentável de sabão e sabonete líquido</a></li>
+                    <li><a href="index.html?id=9">Oficina 4: 5Rs da Sustentabilidade</a></li>
+                    <li><a href="index.html?id=10">Oficina 5: Análises químicas em microescala e suas vantagens para a Química Verde</a></li>
+                    <li><a href="index.html?id=11">Oficina 6- Química para um mundo sustentável: uma abordagem investigativa para o ensino de Química Verde </a></li>
+                    <li><a href="index.html?id=12">Oficina 7: Produção e utilização de extratos de produtos naturais para controle de fitopatógenos </a></li>
+                    <li><a href="index.html?id=13">Oficina 8- Cultura Maker no Ensino de Química: o uso do arduíno e impressão 3D</a></li>
+                    
+                </ul>
+                <ul id="dia15" class="hidden">
+                    <li><a href="index.html?id=14">Cerimônia de encerramento</a></li>
+                    <li><a href="index.html?id=15">Palestra de encerramento</a></li>
+                </ul>
+
+            </div>
+            <h1 id="nome-curso">Semana da quimica</h1>
 
             <div class="sorteio">
-                <h2 id="nome-ganhador">Nome do Aluno</h2>
+                <h2 id="nome-ganhador"></h2>
                 <h2 id="email">Email do Aluno</h2>
-                <div class="Botao" id="sortear"><h3>Sortear</h3></div>
+                <div class="Botao" id="sortear">
+                    <h3>Sortear</h3>
+                </div>
             </div>
         </main>
 

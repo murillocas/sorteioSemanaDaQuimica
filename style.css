@@ -18,7 +18,7 @@ body{
     height: auto;
 }
 .container{
-    width: 1000px;
+    max-width: 1000px;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -34,10 +34,78 @@ header {
 }
 
 header > img{
-    max-width: 50%;
+    max-width: 100%;
     max-height: 100%;
     width: auto;
     height: auto;
+}
+
+.paginas{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 35px;
+    box-sizing: border-box;
+}
+
+.paginas ul{
+    width: 80%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}
+.paginas ul li{
+    list-style: none;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #1168D9;
+    border-radius: 10px;
+
+}
+.paginas ul li a{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+    
+    border-radius: 10px;
+    color: black;
+    cursor: pointer;
+    text-align: center;
+    white-space: pre-wrap;
+    
+}
+.dias{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 35px;
+    box-sizing: border-box;
+}
+.dias ul{
+    width: 80%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.dias ul li{
+    list-style: none;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #F2C438;
+    color: #000;
+    border-radius: 10px;
+
 }
 
 main{
@@ -80,4 +148,9 @@ h2{
 }
 #email,#nome-ganhador{
     font-family: 'Lato', sans-serif
+}
+
+.hidden{
+     
+    display: none;
 }
