@@ -37,6 +37,64 @@ def make_json(csvFilePath, jsonFilePath):
 # computer system
 csvFilePath = r'semanadaQuimica.csv'
 jsonFilePath = r'semanadaQuimica.json'
+make_json(csvFilePath, jsonFilePath);
 
-# Call the make_json function
-make_json(csvFilePath, jsonFilePath)
+csvFilePath = r'CredenciamentoVespertino.csv'
+jsonFilePath = r'CredenciamentoVespertino.json'
+make_json(csvFilePath, jsonFilePath);
+
+csvFilePath = r'Gincana.csv'
+jsonFilePath = r'Gincana.json'
+make_json(csvFilePath, jsonFilePath);
+
+csvFilePath = r'CredenciamentoNoturno.csv'
+jsonFilePath = r'CredenciamentoNoturno.json'
+make_json(csvFilePath, jsonFilePath);
+
+csvFilePath = r'ConferenciaAbertura.csv'
+jsonFilePath = r'ConferenciaAbertura.json'
+make_json(csvFilePath, jsonFilePath);
+
+csvFilePath = r'PalestraAbertura.csv'
+jsonFilePath = r'PalestraAbertura.json'
+make_json(csvFilePath, jsonFilePath);
+
+csvFilePath = r'Oficina1.csv'
+jsonFilePath = r'Oficina1.json'
+make_json(csvFilePath, jsonFilePath);
+
+csvFilePath = r'Oficina2.csv'
+jsonFilePath = r'Oficina2.json'
+make_json(csvFilePath, jsonFilePath);
+
+csvFilePath = r'Oficina3.csv'
+jsonFilePath = r'Oficina3.json'
+make_json(csvFilePath, jsonFilePath);
+
+csvFilePath = r'Oficina4.csv'
+jsonFilePath = r'Oficina4.json'
+make_json(csvFilePath, jsonFilePath);
+
+csvFilePath = r'Oficina5.csv'
+jsonFilePath = r'Oficina5.json'
+make_json(csvFilePath, jsonFilePath);
+
+csvFilePath = r'Oficina6.csv'
+jsonFilePath = r'Oficina6.json'
+make_json(csvFilePath, jsonFilePath);
+
+csvFilePath = r'Oficina7.csv'
+jsonFilePath = r'Oficina7.json'
+make_json(csvFilePath, jsonFilePath);
+
+csvFilePath = r'Oficina8.csv'
+jsonFilePath = r'Oficina8.json'
+make_json(csvFilePath, jsonFilePath);
+
+csvFilePath = r'CerimoniaEncerramento.csv'
+jsonFilePath = r'CerimoniaEncerramento.json'
+make_json(csvFilePath, jsonFilePath);
+
+csvFilePath = r'PalestraEncerramento.csv'
+jsonFilePath = r'PalestraEncerramento.json'
+make_json(csvFilePath, jsonFilePath);
